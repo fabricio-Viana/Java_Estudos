@@ -1,8 +1,6 @@
 
 package Classe;
 
-import Classe.Produto;
-
 public class ProdutoText {
 
     public static void main(String[] args) {
@@ -21,7 +19,7 @@ public class ProdutoText {
         System.out.println(produto.preco);
         System.out.println(produto.desconto);
         
-        double precoFinal = produto.preco * (1 - produto.desconto);
+        double precoFinal = produto.precoComDesconto(0.70);
         System.out.println(precoFinal);
     }
     
