@@ -3,13 +3,16 @@ package Classe;
 
 public class Data {
     
-    Integer dia;
-    Integer mes;
-    Integer ano;
+    Integer dia = 12;
+    Integer mes = 12;
+    Integer ano = 23023;
 
-    @Override
-    public String toString() {
-        return "Hoje é dia " + dia + " do mes" + mes + " de ano " + ano ;
-    }
+   String obterData(){
+       return String.format("%d/%d/%d", dia, mes , ano);
+   }
+   
+   public void imprimeData(){
+       System.out.printf(obterData());
+   }
     
 }
