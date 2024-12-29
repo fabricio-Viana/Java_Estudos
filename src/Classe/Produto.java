@@ -15,8 +15,6 @@ public class Produto {
         this.desconto = desconto;
     }
     
-    
-    
      Double precoComDesconto(){
         return preco * (1 -desconto );
      }
