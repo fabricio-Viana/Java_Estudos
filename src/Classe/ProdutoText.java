@@ -5,20 +5,10 @@ public class ProdutoText {
 
     public static void main(String[] args) {
         
-        Produto produto = new Produto();
-    
-        System.out.println(produto.nome);
-        System.out.println(produto.preco);
-        System.out.println(produto.desconto);
-         
-        produto.desconto = 0.46;
-        produto.nome = "Carro";
-        produto.preco = 50.00000;
+        Produto produto = new Produto("Carro",50.000,0.45);
         
-        System.out.println(produto.nome);
-        System.out.println(produto.preco);
-        System.out.println(produto.desconto);
-        
+        Produto p2 = new Produto();
+
         double precoFinal = produto.precoComDesconto(0.70);
         System.out.println(precoFinal);
     }
