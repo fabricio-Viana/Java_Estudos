@@ -1,5 +1,5 @@
 
-package Classe;
+package Classe.DesafioJantar;
 
 public class Comida {
     

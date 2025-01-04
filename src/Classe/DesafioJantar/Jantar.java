@@ -1,5 +1,5 @@
 
-package Classe;
+package Classe.DesafioJantar;
 import java.util.Scanner;
 
 public class Jantar {
